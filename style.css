@@ -6,12 +6,12 @@ body, html {
 body {
     font-size: 10px;
     font-family: sans-serif;
-    color: #000;
-    background-color: #fcfbea;
-    padding: 0 3em;
+    color: #444;
+    background-color: #fff;
 }
 
-header, main {
+
+main {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
@@ -19,11 +19,14 @@ header, main {
 
 header {
     margin-bottom: 5em;
+    background-color: #eee;
 }
 
 header h1 {
     font-size: 3em;
     text-align: center;
+    padding: 0.67em;
+    margin: 0;
 }
 
 .post-list ul {
@@ -50,4 +53,8 @@ header h1 {
 
 main h2 {
     font-size: 2.5em;
+}
+
+main p {
+    font-size: 1.6em;
 }
